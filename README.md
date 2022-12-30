@@ -6,9 +6,15 @@
 В таблице А A1(1,2,3)  в таблице B B1(2,4,5). 
 Какая выборка будет получена при выполнении следующих запросов? 
 
-| -----|------|
-| а. | ``` SQL Select A1,B1 from A inner join B on A1=B1 ``` | 
-| b. | ``` Select A1,B1 from A left outer join B on A1=B1 ``` | 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+ № | SQL
+--- | --- 
+а. | ``` SQL Select A1,B1 from A inner join B on A1=B1 ``` 
+b. | ``` Select A1,B1 from A left outer join B on A1=B1 ``` 
 
 
 b.	Select A1,B1 from A left outer join B on A1=B1
