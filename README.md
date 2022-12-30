@@ -187,7 +187,7 @@ End;
 
 Ответ:
 * процедуру можно объявить и локально, пакет - нет.
-* пакеты шустрее (кэшируют рез-ты)
+* пакеты шустрее (кэшируют результаты)
 * пакеты могут содержать свои составные типы
 * в пакетах можно ораганизовать раздеоённый доступ к его процедурам
 
@@ -197,19 +197,20 @@ End;
 Правильно ли написано выражение по работе с курсором. Если нет то почему?
 ```sql
 LOOP
-  FETCH c1 INTO my_ename, my_sal, my_hiredate;
-  insert into A (Name,Salary) values (my_ename,my_sal);
-END LOOP;   
+For c from (select * from Clients) Loop
+  Insert into Clients_log (Name, text) values (c.ClientsName,c.text);
+End loop;
 ``` 
-
 Ответ: 
-``` asdasd ```
-правильно будет 
+
+IN, а не FROM
 ```sql
-LOOP
-  FETCH c1 INTO my_ename, my_sal, my_hiredate;
-  insert into A (Name,Salary) values (my_ename,my_sal);
-END LOOP;   
+BEGIN
+   FOR c IN (select * from Clients)
+   LOOP
+     INSERT INTO Clients_log (Name, text) VALUES (c.ClientsName,c.text);
+   END LOOP;
+END;
 ``` 
 
 
@@ -219,7 +220,7 @@ END LOOP;
 
 Ответ:
 * процедуру можно объявить и локально, пакет - нет.
-* пакеты шустрее (кэшируют рез-ты)
+* пакеты шустрее (кэшируют результаты)
 * пакеты могут содержать свои составные типы
 * в пакетах можно ораганизовать раздеоённый доступ к его процедурам
 
