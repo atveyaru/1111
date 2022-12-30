@@ -10,9 +10,27 @@
   ```sql 
   Select A1,B1 from A inner join B on A1=B1
   ```
-b.	Select A1,B1 from A left outer join B on A1=B1
-c.	Select A1,B1 from A right outer join B on A1=B1
-d.	Select A1,B1 from A full outer join B on A1=B1
+* Запрос 2
+  ```sql 
+  Select A1,B1 from A left outer join B on A1=B1
+  ```
+* Запрос 3
+  ```sql 
+  Select A1,B1 from A right outer join B on A1=B1
+  ```
+* Запрос 4
+  ```sql 
+  Select A1,B1 from A full outer join B on A1=B1
+  ```
+### Ответ 1
+```sql 
+  Select A1,B1 from A inner join B on A1=B1
+  ```
+A1 | B1 |
+--- | --- 
+2 | 2 
+null | 1
+null | 3
 
 
 
