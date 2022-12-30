@@ -272,7 +272,7 @@ END LOOP;
 Чего не хватает в данном цикле?
 
 Ответ: 
-``` EXIT WHEN clients_cur%NOTFOUND;_cur%notfound; ```
+``` EXIT WHEN clients_cur%NOTFOUND; ```
 правильно будет 
 ```sql
 LOOP
