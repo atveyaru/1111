@@ -27,10 +27,10 @@
   ```sql 
   Select A1,B1 from A inner join B on A1=B1
   ```
-  > --- | --- 
-  > 2 | 2 
-  > null | 1
-  > null | 3
+  > | --- | --- |
+   | 2 | 2 |
+   | null | 1 |
+   | null | 3 |
 
 
 
