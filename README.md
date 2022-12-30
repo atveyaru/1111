@@ -61,7 +61,7 @@
 
 
 ### Вопрос 3
-Какую дату выведет запрос ``` select trunc(to_date(’10.05.2006’,’DD.MM.YYYY’),’YYYY’) from dual? ```
+Какую дату выведет запрос ``` select trunc(to_date(’10.05.2006’,’DD.MM.YYYY’),’YYYY’) from dual? ``` 
 Ответ: 01.01.2006
 
 
