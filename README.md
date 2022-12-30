@@ -159,7 +159,7 @@ orders as (
 
 ### Вопрос 1
 Как называется программный блок в Oracle 
-```plsql 
+```pl/sql 
 Declare 
 A varchar2;
 Begin
