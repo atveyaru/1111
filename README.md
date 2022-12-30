@@ -13,12 +13,8 @@ Markdown | Less | Pretty
 
  № | SQL
 --- | --- 
-а. | ```SQL
-Select A1,B1 from A inner join B on A1=B1 
-`````` 
-b. | ``` 
-Select A1,B1 from A left outer join B on A1=B1 
-``` 
+а. | ```SQL Select A1,B1 from A inner join B on A1=B1 `````` 
+
 
 
 b.	Select A1,B1 from A left outer join B on A1=B1
