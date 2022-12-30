@@ -271,13 +271,14 @@ END LOOP;
 Чего не хватает в данном цикле?
 
 Ответ: 
-``` asdasd ```
+``` EXIT WHEN clients_cur%NOTFOUND;_cur%notfound; ```
 правильно будет 
 ```sql
 LOOP
   FETCH c1 INTO my_ename, my_sal, my_hiredate;
+  EXIT WHEN clients_cur%NOTFOUND;_cur%notfound;
   insert into A (Name,Salary) values (my_ename,my_sal);
-END LOOP;   
+END LOOP;    
 ``` 
 
 
