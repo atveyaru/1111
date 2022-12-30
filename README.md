@@ -87,18 +87,18 @@
 ```sql 
 with clients as (
   select 1 as id, 'Иванов Иван' name from dual
-  union all select 2, 'Петров Петр' from dual
-  union all select 3, 'Сидоров Сидр' from dual
-  union all select 4, 'Ошибков Эрр' from dual
+  union select 2, 'Петров Петр' from dual
+  union select 3, 'Сидоров Сидр' from dual
+  union select 4, 'Ошибков Эрр' from dual
 ), 
 orders as (
   select 1 as id, 'договор 001' as code, 1 client_id from dual
-  union all select 2, 'договор 002', 1  from dual
-  union all select 3, 'договор 003', 2  from dual
-  union all select 4, 'договор 004', 2  from dual
-  union all select 5, 'договор 005', 2  from dual
-  union all select 6, 'договор 006', 3  from dual
-  union all select 7, 'договор 000', 5  from dual
+  union select 2, 'договор 002', 1  from dual
+  union select 3, 'договор 003', 2  from dual
+  union select 4, 'договор 004', 2  from dual
+  union select 5, 'договор 005', 2  from dual
+  union select 6, 'договор 006', 3  from dual
+  union select 7, 'договор 000', 5  from dual
 )
 ```
 * вариант 1
