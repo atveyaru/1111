@@ -186,21 +186,23 @@ End;
 * в пакетах можно ораганизовать раздеоённый доступ к его процедурам
 
 
+### Вопрос 8
+```TYPE Staff IS TABLE of Material;``` 
+
+Какого типа можеть быть  Material?(Перечислите)
+
+1.	Varchar2
+2.	Integer
+3.	Long
+4.	Record
+
+Ответ: (все кроме Record)
+* Varchar2
+* Integer
+* Long
 
 
 
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
- № | SQL
---- | --- 
-а. |   ```Select A1,B1 from A inner join B on A1=B1 `````` 
 
 
-
-b.	Select A1,B1 from A left outer join B on A1=B1
-c.	Select A1,B1 from A right outer join B on A1=B1
-d.	Select A1,B1 from A full outer join B on A1=B1
