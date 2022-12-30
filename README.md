@@ -7,9 +7,9 @@
 Какая выборка будет получена при выполнении следующих запросов? 
 
 * Запрос 1
-```sql 
-Select A1,B1 from A inner join B on A1=B1
-```
+  ```sql 
+  Select A1,B1 from A inner join B on A1=B1
+  ```
 b.	Select A1,B1 from A left outer join B on A1=B1
 c.	Select A1,B1 from A right outer join B on A1=B1
 d.	Select A1,B1 from A full outer join B on A1=B1
