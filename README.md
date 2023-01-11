@@ -460,7 +460,7 @@ select t_dockind from dpmpaym_dbt where t_paymentid = :paymentid;
 
 Составьте свое задание для проверки знаний по программированию на языке sql\plSQL
 
-**Ответ:** Вот одно из тестовых [заданий]([http://example.net/](https://github.com/kbarsu/ingos/blob/main/README.md)) 
+**Ответ:** Вот одно из тестовых [заданий](https://github.com/kbarsu/ingos/blob/main/README.md) 
 
 
 
