@@ -341,13 +341,11 @@ END LOOP;
 
 
 
-
-
 <br>
 
-# SQL\plSQL - TEST (файл Задание.docx)
+# Тест 2 (файл Задание.docx)
 
-
+## SQL\plSQL - TEST
 
 ### Вопрос 1
 
@@ -454,8 +452,7 @@ select t_dockind from dpmpaym_dbt where t_paymentid = :paymentid;
 
 <br>
 
-# RSL - TEST (файл Задание.docx)
-
+## RSL - TEST 
 
 ### Вопрос 1 
 
