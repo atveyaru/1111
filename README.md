@@ -13,6 +13,7 @@
   Select A1,B1 from A inner join B on A1=B1
   ```
   <h4>Ответ</h4>
+  
   | A1 | B1 |
   | --- | --- |
   | 2 | 2 |
@@ -22,6 +23,7 @@
   select A1,B1 from A left outer join B on A1=B1
   ```
   <h4>Ответ</h4>
+  
   | A1 | B1 |
   | --- | --- |
   | 2 | 2 |
@@ -32,6 +34,7 @@
   select A1,B1 from A right outer join B on A1=B1
   ```
   <h4>Ответ</h4>
+  
   | A1 | B1 |
   | --- | --- |
   | 2 | 2 |
@@ -42,6 +45,7 @@
   select A1,B1 from A full outer join B on A1=B1
   ```
   <h4>Ответ</h4>
+  
   | A1 | B1 |
   | --- | --- |
   | 2 | 2 |
