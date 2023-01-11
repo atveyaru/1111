@@ -347,9 +347,9 @@ END LOOP;
 3.	Long
 4.	Record
 
-<h3>Ответ</h3> (все кроме Record)
-* Varchar2
-* Integer
+**Ответ:** (все кроме Record)<br>
+* Varchar2<br>
+* Integer<br>
 * Long
 
 
