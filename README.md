@@ -505,7 +505,7 @@ select t_dockind from dpmpaym_dbt where t_paymentid = :paymentid;
 
 Есть некая таблица под названием, например, dmytable_dbt. В ней есть два поля: recid - ID записи, myname - текстовое поле. Задача: для записи с recid = 15 обновить поле myname на "New Name".
 
-Реализация:
+Реализация: 
 
 ```C++
 var t = TRecHandler("mytable.dbt");
