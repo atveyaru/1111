@@ -12,7 +12,7 @@
   ```sql 
   Select A1,B1 from A inner join B on A1=B1
   ```
-  > Ответ 
+  > **Ответ**  
   
   | A1 | B1 |
   | --- | --- |
@@ -22,7 +22,7 @@
   ```sql 
   select A1,B1 from A left outer join B on A1=B1
   ```
-  > Ответ
+  > **Ответ**  
   
   | A1 | B1 |
   | --- | --- |
@@ -33,7 +33,7 @@
   ```sql 
   select A1,B1 from A right outer join B on A1=B1
   ```
-  > Ответ
+  > **Ответ**  
   
   | A1 | B1 |
   | --- | --- |
@@ -44,7 +44,7 @@
   ```sql 
   select A1,B1 from A full outer join B on A1=B1
   ```
-  > Ответ
+  > **Ответ**  
   
   | A1 | B1 |
   | --- | --- |
@@ -67,7 +67,7 @@
   <li>Текстовый тип</li>
 </ol>
 
-> **Ответ**
+> **Ответ**  
 
  <ol type="a">
    <li>1, 2, 8, 12, 21, 24</li>
@@ -82,7 +82,7 @@
 
 Какую дату выведет запрос ``` select trunc(to_date(’10.05.2006’,’DD.MM.YYYY’),’YYYY’) from dual ``` ?
 
-> **Ответ:  01.01.2006  **
+> **Ответ:**  **01.01.2006**
 
 
 
