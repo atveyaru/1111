@@ -353,7 +353,7 @@ END LOOP;
 * Long
 
 
-
+----
 
 <br>
 
@@ -473,7 +473,7 @@ select t_dockind from dpmpaym_dbt where t_paymentid = :paymentid;
 
 Есть три макроса:
 
-```C++
+```C
 Макрос "111.mac"
    import "222.mac", "333.mac";
    print (abc);
@@ -508,7 +508,7 @@ select t_dockind from dpmpaym_dbt where t_paymentid = :paymentid;
 
 Реализация: 
 
-```C++
+```C
 var t = TRecHandler("mytable.dbt");
 t.rec.recid = 15;
 if (GetEQ(t))
@@ -535,7 +535,7 @@ end;
 
 Что получим в результате выполнения кода:
 
-```C++
+```C
 macro test(b:@Variant)
    b = TArray();
    b(b.Size) = 123;
@@ -563,7 +563,7 @@ println(a(0));
 
 Разработчик в своем макросе определил диалоговую панель как: 
 
-```C++
+```C
 VAR dlg = TRecHandler("TEST_PNL", null, true); 
 ```
 
@@ -588,7 +588,7 @@ VAR dlg = TRecHandler("TEST_PNL", null, true);
 
 Чему будет равен результат выполнения следующего кода:
 
-```C++
+```C
 Class Test
    Macro getText(): String
      return "Test!";
@@ -628,9 +628,9 @@ obj.getMessage();
 
 ### Задание 
 
-Задание Составьте свое задание для проверки знаний по программированию на языке RSL
+Составьте свое задание для проверки знаний по программированию на языке RSL
 
-**Ответ:** Мало практического опыта
+**Решение:** Мало практического опыта
 
 
 
