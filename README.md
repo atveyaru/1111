@@ -1,3 +1,13 @@
+<style>
+.h3 {
+	font-size:;
+}
+
+.h3_5 {
+	color: orange;
+}
+</style>
+
 # R-Style LAB
 
 # Тест 1 (файл Тесты по PLSQL-SQL.DOC)
@@ -81,6 +91,8 @@
 Какую дату выведет запрос ``` select trunc(to_date(’10.05.2006’,’DD.MM.YYYY’),’YYYY’) from dual ``` ?
 
 **Ответ:** 01.01.2006
+
+<div style="color:red;"><font color=gray size=72>color=gray</font></div>
 
 
 
