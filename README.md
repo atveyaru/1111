@@ -33,7 +33,7 @@
   ```sql 
   select A1,B1 from A right outer join B on A1=B1
   ```
-  <h4>Ответ</h4>
+  <h4 class=h3_5>Ответ</h4>
   
   | A1 | B1 |
   | --- | --- |
