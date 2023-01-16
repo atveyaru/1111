@@ -356,6 +356,8 @@ END LOOP;
 * Long
 
 
+<br>
+
 ----
 
 <br>
@@ -463,7 +465,7 @@ select t_dockind from dpmpaym_dbt where t_paymentid = :paymentid;
 
 Составьте свое задание для проверки знаний по программированию на языке sql\plSQL
 
-**Решение:** Вот одно из тестовых [заданий](https://github.com/kbarsu/ingos/blob/main/README.md) 
+> **Решение:** Вот одно из тестовых [заданий](https://github.com/kbarsu/ingos/blob/main/README.md) 
 
 
 
