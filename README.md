@@ -12,7 +12,7 @@
   ```sql 
   Select A1,B1 from A inner join B on A1=B1
   ```
-  > ### Ответ
+  > Ответ
   
   | A1 | B1 |
   | --- | --- |
