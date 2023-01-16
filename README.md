@@ -1,13 +1,3 @@
-<style>
-.h3 {
-	font-size:;
-}
-
-.h3_5 {
-	color: orange;
-}
-</style>
-
 # R-Style LAB
 
 # Тест 1 (файл Тесты по PLSQL-SQL.DOC)
